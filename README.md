@@ -1,5 +1,12 @@
 # poc-monorepo-typescript
 
+## 발견된 이슈
+
+1. 모든 프로젝트간의 typescript 버전이 같아야 함.
+   그렇지 않을 경우에 설정 공유가 이루어 지지 않음
+
+2. Use VS Code's Version보다 높은 typescript 버전 사용 시에 SDK가 적용이 안되는 이슈가 있음. 때문에 4.8.2로 모든 프로젝트 고정 중임.
+
 ## 독립 가능하지 않은 이유
 
 - typescript 버전

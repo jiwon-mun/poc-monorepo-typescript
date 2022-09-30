@@ -1,0 +1,12 @@
+{
+  "name": "poc-monorepo-typescript",
+  "packageManager": "yarn@3.2.3",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "4.8.2"
+  }
+}
